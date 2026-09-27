@@ -239,6 +239,7 @@ var db = new AppDbContext();
 
 //            default:
 //                Console.WriteLine("Invalid option!");
+//                LocalRunning = false;
 //                break;
 //        }
 //    }
