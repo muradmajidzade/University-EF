@@ -10,6 +10,6 @@ namespace University.Entities
         public int Age { get; set; }
         public StudentCard StudentCard { get; set; }
         public List<StudentCourse> StudentCourses { get; set; } = new List<StudentCourse>();
-        public string PhoneNumber { get; set; } // Task 9
+        public string? PhoneNumber { get; set; } // Task 9
     }
 }
